@@ -4,10 +4,10 @@ Using Django 3.2.6.
 """
 
 from pathlib import Path
-#from django.apps import AppConfig
+from django.apps import AppConfig
 import os
 
-#AppConfig.default = False
+AppConfig.default = False
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -30,7 +30,7 @@ BASE_APPS = [
 
 LOCAL_APPS = [
     
-    #'apps.companies',
+    'apps.companies',
 
 ]
 THIRD_APPS = [
